@@ -1,0 +1,124 @@
+.svg-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.element1,
+.element2,
+.element3 {
+  position: absolute;
+}
+
+.element1 {
+  top: 20%;
+  left: 5%;
+  width: 95%;
+  height: 80%;
+  z-index: 1;
+}
+
+.element2 {
+  top: 60%;
+  left: 12%;
+  width: 82%;
+  height: 40%;
+  z-index: 2;
+}
+
+.element3 {
+  top: 20%;
+  left: 12%;
+  width: 82%;
+  height: 80%;
+  z-index: 3;
+}
+
+@media (max-width: 168px) {
+  .element1 {
+    bottom: 39%;
+    right: 25%;
+  }
+
+  .element2 {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  .element3 {
+    top: 15%;
+    left: 15%;
+    width: 60%;
+    height: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .element1 {
+    top: 33%;
+    right: 25%;
+  }
+
+  .element2 {
+    top: 57%;
+    left: 12%;
+    width: 80%;
+    height: 55%;
+  }
+
+  .element3 {
+    top: 14%;
+    left: 7%;
+    width: 90%;
+    height: 98%;
+  }
+}
+@media (max-width: 768px) {
+  .element1 {
+    top: 21%;
+    left: 2%;
+  }
+
+  .element2 {
+    top: 44%;
+    left: 9%;
+    width: 80%;
+    height: 55%;
+  }
+
+  .element3 {
+    top: 1%;
+    left: 4%;
+    width: 90%;
+    height: 98%;
+  }
+}
+@media (min-width: 769px) and (max-width: 924px) {
+  .element1 {
+    top: 39%;
+    right: 25%;
+  }
+
+  .element2 {
+    top: 62%;
+    left: 12%;
+    width: 80%;
+    height: 55%;
+  }
+
+  .element3 {
+    top: 19%;
+    left: 7.5%;
+    width: 90%;
+    height: 98%;
+  }
+}

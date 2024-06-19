@@ -1,0 +1,13 @@
+.flex-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 168px) {
+  .flex-layout {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
